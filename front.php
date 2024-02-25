@@ -125,7 +125,7 @@
                 <div class="col-md-1 col-xs-1 col-sm-1 c"><a href="Your-Throne/yt.php"><img class="t img" src="https://m.media-amazon.com/images/I/81KJ8of3+5L._AC_UF1000,1000_QL80_.jpg"></a></div>
             </div><br><br><br><br>
                 <div class="visit-link">
-                <a href="page.php" class="page"><button class="butn">Visit Website</button></a>
+                <a href="page.html" class="page"><button class="butn">Visit Website</button></a>
                 </div>
         </div>
     </div>
