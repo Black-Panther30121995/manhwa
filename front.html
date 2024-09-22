@@ -1,0 +1,249 @@
+<?php
+/*session_start();
+if(!isset($_SESSION["loggedin"])  || $_SESSION['loggedin']!=true)
+{
+  header("location:login.php");
+  exit;
+}
+*/
+?> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Afacad:wght@600&family=Nunito:wght@900&family=Rubik+Bubbles&family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="front.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Page</title>
+</head>
+
+
+<body style="width:100%">
+  <div class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-1">
+          <img class="logo" style="margin-bottom:10px" src="Free_Sample_By_Wix.jpg">
+        </div>
+        <div class="col-md-2">
+          <a class="main"href="page.php"><h3 class="title">NOVICS</h3></a>
+        </div>
+        <div class="col-md-1">
+
+        </div>
+        <div class="col-md-8">
+          <div class="nav justify-content-md-end">
+            <a href="logout.php" class="nav-link" style="font-size: 18px;color:black;margin-right: 10px;">LOGOUT</a>
+            <a href="completed.php" class="nav-link" style="font-size: 18px;color:black;margin-right: 10px;" >COMPLETED</a>
+            <a href="planning.php" class="nav-link" style="font-size: 18px;color:black;margin-right: 10px;">PLANNING TO WATCH</a>
+            <a href="watching.php" class="nav-link" style="font-size: 18px;color:black;margin-right: 10px;">WATCHING</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  
+
+
+  <div class="container-1" style="background-image: url(https://t3.ftcdn.net/jpg/02/16/49/46/360_F_216494639_uZ0e27KMsl5qyKFXiZDTGUPO7bcMxCeh.jpg);">
+
+    <div class="disp " style="background-color: rgb(229, 229, 231);">
+      <div class="books fade">
+        <div class="books-image" style="display: inline-block;">
+          <a hreF="yt/yt.php"><img class="image1" src="https://image-repository-cdn.tappytoon.com/series/118/04455aa7-c06b-4919-9356-1864288afdcb.jpg?size=large"></a>
+          </div>
+          <div class="book-info">
+          <a href="yt/yt.php"><h3 class="book-name">WHO MADE ME A PRINCESS</h3></a>
+          <hr>
+          <p class="info">
+          When a modern woman is reincarnated as the doomed princess in a romance novel, she reaches out to grab a new future with both baby fists! The story of Athanasia, forsaken princess of the Obelian Empire, ends with her execution at the hands of her own father–or does it?
+          </p>
+          </div>
+      </div>
+      <div class="books fade">
+        <img class="image1" src="https://m.media-amazon.com/images/I/91OGBsB9e0L._AC_UF1000,1000_QL80_.jpg" >
+        <div class="book-info">
+          <h3 class="book-name">THE REMARRIED EMPRESS</h3>
+          <hr>
+          <p class="info">
+          Empress of the Eastern Nation Navier Ellie Trovi stands at the pinnacle of noblewomen with dignity and grace. Although she and her husband, Emperor Sovieshu, are not as intimate as other couples, their trust in each other has been built over years of friendship. But then, wanting something more, he brings in a concubine—a former slave named Rashta—and that is when everything begins to fall apart.
+          </p>
+        </div>
+      </div>
+      <div class="books fade">
+        <img class="image1" src="https://m.media-amazon.com/images/I/71uzhPeeykL._AC_UF1000,1000_QL80_.jpg" >
+        <div class="book-info">
+          <h3 class="book-name">VILLAIN TO KILL</h3>
+          <hr>
+          <p class="info">
+            There are two kinds of people with special abilities: villains, who are driven by their evil desires, and psykers, who pursue justice and work against villains. Cassian Lee is a very powerful psyker with a good heart. But one day, when he visits his friend in Greece, things take a wrong turn. Following an unexpected chain of events, Cassian ends up in the body of a Korean high school boy... who has just become a villain! Will his sense of justice win in the end or will he end up becoming a cold-blooded villain?
+          </p>
+        </div>
+      </div>
+      <div class="books fade">
+        <img class="image1" src="https://swebtoon-phinf.pstatic.net/20230130_85/1675035632712X6CbX_JPEG/4Connect_landingpage_mobile.jpg?type=crop540_540" >
+        <div class="book-info">
+          <h3 class="book-name">CONNECT</h3>
+          <hr>
+          <p class="info">
+            Seeing life through someone else's eyes seems appealing, but less so when it's your own eye that was gouged out by a murderous serial killer. Fortunately for Dongsu Ha, he's a Connect—an immortal being with supernatural healing ability. Thanks to this strange power, Dongsu is able to see through his stolen eye, which the killer is still using. Dongsu must use this connection and his newfound ability to track down his killer and recover his eye before more innocent people are hurt, but at what cost?
+          </p>
+        </div>
+      </div>
+      <div class="books fade">
+        <img class="image1" src="https://image-repository-cdn.tappytoon.com/series/946/01bd9b86-fc93-4c79-9e95-0fb59f8530a4.jpg?size=large" >
+        <div class="book-info">
+          <h3 class="book-name">CODENAME ANASTASIA</h3>
+          <hr>
+          <p class="info">
+          “Kwon Taekjoo, go to Russia. And find ‘Anastasia’.” The ace of the National Intelligence Service, ‘Kwon Taekjoo’, was urgently dispatched to Moscow for a mission to identify and uncover ‘Anastasia’, the lethal weapon created in a secret partnership between Russia and North Korea (a.k.a DPRK). But, just as he gets dispatched to handle the work in Russia for the first time, things immediately go south, and a man named ‘Zhenia’ who appeared and introduced himself as a local partner assigned by the NIS, makes Kwon Taekjoo even more confused.
+          </p>
+          </div>
+      </div>
+      </div>
+   
+
+      
+    <a class="prev" onclick="plusSlides(-1)">&#10094</a>
+    <a class="next" onclick="plusSlides(1)">&#10095</a>
+
+  <div  class="show"  style="text-align:center">
+    <span class="dot" onclick="currentSlide(1)"><button class="slider"></button></span>
+    <span class="dot" onclick="currentSlide(2)"><button class="slider"></button></span>
+    <span class="dot" onclick="currentSlide(3)"><button class="slider"></button></span>
+    <span class="dot" onclick="currentSlide(4)"><button class="slider"></button></span>
+    <span class="dot" onclick="currentSlide(5)"><button class="slider"></button></span>
+  </div>
+  </div>
+  </div>
+  <hr> 
+  <div class="thriller">
+    <div class="heading-thriller">
+      <h4 class="one">Thriller</h4><span class="arr">&#10095</span>
+    </div>
+    <div class="thriller-content">
+       <img src="https://swebtoon-phinf.pstatic.net/20210226_191/1614278258514hbpqj_JPEG/2DistantSky__mobile_landingpage.jpg?type=crop540_540 " class="thriller-1">
+      <div class="text"><h4 style="color: white; text-align: center;font-size: 13px">Distant Sky</h4><p style="color: white;font-size: 11px;text-align: center;">"Am I the only one still alive?" A boy wakes up to find himself in a building full of dead people, and Gangnam is shrouded in complete darkness. </p></div>
+    </div>
+    <div class="thriller-content1">
+      <img src="https://swebtoon-phinf.pstatic.net/20180209_260/1518136656996FmwcK_JPEG/04_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="thriller-2">
+      <div class="text1"><h4 style="color: white; text-align: center;font-size: 13px">Ghost Teller</h4><p style="color: white;font-size: 11px;text-align: center;">You think your ghost stories are scary? Try listening to these stories from the ghosts themselves. </p></div>
+    </div>
+    <div class="thriller-content2">
+      <img src="https://swebtoon-phinf.pstatic.net/20210211_268/1612983724061bQqWM_JPEG/4Escape+Room_mobile_landingpage.jpg?type=crop540_540" alt="" class="thriller-3">
+      <div class="text2"><h4 style="color: white; text-align: center;font-size: 13px">Escape Room</h4><p style="color: white;font-size: 11px;text-align: center;"> Sean's unfeeling personality consistently drives people away from him. That is, until he wakes up after a night of heavy drinking in... an escape room? </p></div>
+    </div>
+    <div class="thriller-content3">
+      <img src="https://swebtoon-phinf.pstatic.net/20180115_51/1515982339987yaWKf_JPEG/04_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="thriller-4">
+      <div class="text3"><h4 style="color: white; text-align: center;font-size: 13px">Sweet Home</h4><p style="color: white;font-size: 11px;text-align: center;">Cha Hyn is an unfortunate student whose parents died in a car accident. His pathetic life is least of his worries as people around him suddenly start turning into ...Monsters!!</p></div>
+    </div>
+    <div class="thriller-content4">
+      <img src="https://xfs-n08.xfspp.com/thumb/W300/ampi/227/22724d89e344aeea529d64c0633fb1b6de805fb1_225_225_11317.jpeg" alt="" class="thriller-5">
+      <div class="text4"><h4 style="color: white; text-align: center;font-size: 13px">Never Ending Darling</h4><p style="color: white;font-size: 11px;text-align: center;">Ha-im Yun lives in a world where people register their DNA into cloning databases, a world where human suffering has basically been eradicated.</p></div>
+    </div>
+    <div class="thriller-content5">
+      <a href ="bastard/bastard.php"><img src="https://swebtoon-phinf.pstatic.net/20150608_96/1433732722146JfafB_JPEG/EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540 " alt="" class="thriller-6"></a>
+     <div class="text5"><h4 style="color: white; text-align: center;font-size: 13px">Bastard</h4> <a href ="bastard/bastard.php"><p style="color: white;font-size: 11px;text-align: center;">What would you do if your own father who is an ideal person for everyone, turns out to be a Serial Killer..?? </p></div></a>
+    </div>
+  </div>
+  <hr>
+  <div class="horror">
+    <div class="heading-horror" style="background-color: rgb(54, 54, 183);">
+      <h4 class="one">Horror</h4><span class="arr">&#10095</span>
+    </div>
+    <div class="horror-content">
+       <img src="https://swebtoon-phinf.pstatic.net/20200818_136/1597690421738neomF_JPEG/04_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" class="horror-1" >
+      <div class="text"><h4 style="color: white; text-align: center;font-size: 13px;">Rotten</h4><p style="color: white;font-size: 11px;text-align: center;">Jaeshin sees dead people, and Officer Han can sniff out evil. Literally. Can they handle the overpowering stench of evil? </p></div>
+    </div>
+    <div class="horror-content1">
+      <img src="https://swebtoon-phinf.pstatic.net/20201020_210/1603158620511WbJn4_JPEG/404_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="horror-2">
+      <div class="text1"><h4 style="color: white; text-align: center;font-size: 13px">Pigpen</h4><p style="color: white;font-size: 11px;text-align: center;">Ken Kaneki is an ordinary college student until a violent encounter turns him into the first half-human half-ghoul hybrid. Learn more about Ghoul society and master his new powers.</p></div>
+    </div>
+    <div class="horror-content2">
+      <img src="https://swebtoon-phinf.pstatic.net/20141212_183/1418373133972jxMC5_JPEG/EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="horror-3">
+      <div class="text2"><h4 style="color: white; text-align: center;font-size: 13px">Deep</h4><p style="color: white;font-size: 11px;text-align: center;">Not only is Charlotte becoming stronger, but Charlie is also changing... Each of them are missing something the other has... But will they be able to help each other out?</p></div>
+    </div>
+    <div class="horror-content3">
+      <img src="https://swebtoon-phinf.pstatic.net/20210324_42/1616547679872gm9GO_JPEG/5Delusion_mobile_landingpage.jpg?type=crop540_540" alt="" class="horror-4">
+      <div class="text3"><h4 style="color: white; text-align: center;font-size: 13px">Delusion</h4><p style="color: white;font-size: 11px;text-align: center;">It's 1935 in Gyeongseong, and struggling artist Iho Yun has been commissioned by the reclusive, elderly Madam Jeonghwa Song to paint a portrait.But what will happen if Iho finishes the portrait?</p></div>
+    </div>
+    <div class="horror-content4">
+      <img src="https://swebtoon-phinf.pstatic.net/20160108_292/1452239327586VDcSf_JPEG/EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="horror-5">
+      <div class="text4"><h4 style="color: white; text-align: center;font-size: 13px">Winter Woods</h4><p style="color: white;font-size: 11px;text-align: center;">A few thousand years has passed since an alchemist created Winter. He is now living with Jane learning what it means to be alive as a human.
+      </p></div>
+    </div>
+    <div class="horror-content5">
+      <img src="https://us-a.tapas.io/sa/b8/422866f5-acba-458f-9de9-56aa0e646a0b.jpg" alt="" class="horror-6">
+      <div class="text5"><h4 style="color: white; text-align: center;font-size: 13px">American ghost Jack</h4><p style="color: white;font-size: 11px;text-align: center;">“Killing Stalking” is based around Yoonbum’s unhealthy obsession with his classmate, Sangwoo. Yoonbum eventually sneaks into his home where he is knocked out cold by his beloved Sangwoo.</p></div>
+    </div>
+  </div>
+  <hr>
+  <div class="romance">
+    <div class="heading-romance">
+      <h4 class="one">Romance</h4><span class="arr">&#10095</span>
+    </div>
+    <div class="romance-content">
+       <img src="https://swebtoon-phinf.pstatic.net/20210714_49/16262094425114mCso_JPEG/5AfterSchoolLessonsForUnripeApples_mobile_landingpage.jpg?type=crop540_540" class="romance-1">
+      <div class="text"><h4 style="color: white; text-align: center;font-size: 13px">After School Lessons For Unripe Apples</h4><p style="color: white;font-size: 11px;text-align: center;">"Am I the only one still alive?" A boy wakes up to find himself in a building full of dead people, and Gangnam is shrouded in complete darkness. </p></div>
+    </div>
+    <div class="romance-content1">
+      <img src="https://swebtoon-phinf.pstatic.net/20220415_34/1650014657627zqsr7_JPEG/1Mobile+Detail+Banner_23d708cb.jpg?type=crop540_540" alt="" class="romance-2">
+      <div class="text1"><h4 style="color: white; text-align: center;font-size: 13px">Dreaming Freedom</h4><p style="color: white;font-size: 11px;text-align: center;">You think your ghost stories are scary? Try listening to these stories from the ghosts themselves. </p></div>
+    </div>
+    <div class="romance-content2">
+      <img src="https://swebtoon-phinf.pstatic.net/20240306_260/17096640577543NJdu_JPEG/2EpisodeList_Mobile.jpg?type=crop540_540" alt="" class="romance-3">
+      <div class="text2"><h4 style="color: white; text-align: center;font-size: 13px">Osora</h4><p style="color: white;font-size: 11px;text-align: center;"> Sean's unfeeling personality consistently drives people away from him. That is, until he wakes up after a night of heavy drinking in... an escape room? </p></div>
+    </div>
+    <div class="romance-content3">
+      <img src="https://swebtoon-phinf.pstatic.net/20220707_236/165714993807663THN_JPEG/9OperationTrueLove_landingpage_mobile.jpg?type=crop540_540" alt="" class="romance-4">
+      <div class="text3"><h4 style="color: white; text-align: center;font-size: 13px">Operation: True Love</h4><p style="color: white;font-size: 11px;text-align: center;">Cha Hyn is an unfortunate tsudent whose parents died in a car accident. His pathetic life is least of his worries as people around him suddenly start turning into ...Monsters!!</p></div>
+    </div>
+    <div class="romance-content4">
+      <img src="https://swebtoon-phinf.pstatic.net/20231117_39/17001732047764nikV_JPEG/6LandingPage_mobile.jpg?type=crop540_540" alt="" class="romance-5">
+      <div class="text4"><h4 style="color: white; text-align: center;font-size: 13px">Mafia Nanny</h4><p style="color: white;font-size: 11px;text-align: center;">Hyun-Woo, Ai Sol and Nuna are three strangers who must band together to survive. Who will emerge the victor?</p></div>
+    </div>
+    <div class="romance-content5">
+    <a href ="whw/whw.php"><img src="https://i1.sndcdn.com/artworks-Pz0yI1cCDzt5DIkh-Ht0qlg-t500x500.jpg" alt="" class="romance-6"></a>
+      <div class="text5"><h4 style="color: white; text-align: center;font-size: 13px">When Jasy Whistles</h4><a href ="whw/whw.php"><p style="color: white;font-size: 11px;text-align: center;">What would you do if your own father who is an ideal person for everyone, turns out to be a Serial Killer..?? </p></a></div>
+    </div>
+  </div>
+  <hr>
+  <div class="historical">
+    <div class="heading-historical">
+      <h4 class="one">Action</h4><span class="arr">&#10095</span>
+    </div>
+    <div class="historical-content">
+       <img src="https://swebtoon-phinf.pstatic.net/20230524_52/1684869003058mtNYU_JPEG/5OmniscientReader_landingpage_mobile.jpg?type=crop540_540" class="historical-1">
+      <div class="text"><h4 style="color: white; text-align: center;font-size: 13px">Omniscient Reader's Viewpoint</h4><a href="jjk/jjk.php"><p style="color: white;font-size: 11px;text-align: center;">"Am I the only one still alive?" A boy wakes up to find himself in a building full of dead people, and Gangnam is shrouded in complete darkness. </p></a></div>
+    </div>
+    <div class="historical-content1">
+      <img src="https://upload.wikimedia.org/wikipedia/en/thumb/1/17/Lookism_Volume_1_Cover.jpg/220px-Lookism_Volume_1_Cover.jpg" alt="" class="historical-2">
+      <div class="text1"><h4 style="color: white; text-align: center;font-size: 13px">Lookism</h4><p style="color: white;font-size: 11px;text-align: center;">You think your ghost stories are scary? Try listening to these stories from the ghosts themselves. </p></div>
+    </div>
+    <div class="historical-content2">
+      <img src="https://swebtoon-phinf.pstatic.net/20210430_255/1619747419130UoN40_JPEG/5TeenageMercenary_mobile_landingpage.jpg?type=crop540_540" alt="" class="historical-3">
+      <div class="text2"><h4 style="color: white; text-align: center;font-size: 13px">Teenage Mercenary</h4><p style="color: white;font-size: 11px;text-align: center;"> Sean's unfeeling personality consistently drives people away from him. That is, until he wakes up after a night of heavy drinking in... an escape room? </p></div>
+    </div>
+    <div class="historical-content3">
+      <img src="https://static1.dualshockersimages.com/wordpress/wp-content/uploads/2021/12/Is-Solo-Leveling-Finished-Manhwa-Ending-Explained.jpg" alt="" class="historical-4">
+      <div class="text3"><h4 style="color: white; text-align: center;font-size: 13px">Solo Levelling</h4><p style="color: white;font-size: 11px;text-align: center;">Cha Hyn is an unfortunate tsudent whose parents died in a car accident. His pathetic life is least of his worries as people around him suddenly start turning into ...Monsters!!</p></div>
+    </div>
+    <div class="historical-content4">
+      <img src="https://swebtoon-phinf.pstatic.net/20210410_35/16180079370625ksUI_JPEG/004_EC9E91ED9288EC8381EC84B8_mobile.jpg?type=crop540_540" alt="" class="historical-5">
+      <div class="text4"><h4 style="color: white; text-align: center;font-size: 13px">The Boxer</h4><p style="color: white;font-size: 11px;text-align: center;">Hyun-Woo, Ai Sol and Nuna are three strangers who must band together to survive. Who will emerge the victor?</p></div>
+    </div>
+    <div class="historical-content5">
+      <img src="https://swebtoon-phinf.pstatic.net/20210331_138/1617152372024Dq7Wb_JPEG/4WeakHero_mobile_landingpage.jpg?type=crop540_540" alt="" class="historical-6">
+      <div class="text5"><h4 style="color: white; text-align: center;font-size: 13px">Weak Hero</h4><p style="color: white;font-size: 11px;text-align: center;">What would you do if your own father who is an ideal person for everyone, turns out to be a Serial Killer..?? </p></div>
+    </div>
+  </div>
+  <script src="front.js"></script>
+</body>
+</html>
